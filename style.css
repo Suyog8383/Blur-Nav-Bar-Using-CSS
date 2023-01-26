@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 80vw;
+}
+header {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+.nav-bar {
+  list-style: none;
+  height: 50px;
+}
+.nav-bar li {
+  margin: 0 12px;
+}
+.header-height {
+  height: 30px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
